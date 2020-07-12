@@ -119,6 +119,7 @@
 }
 
 @media (max-width: 768px) {
+    
     body {
         background: url('./img/bkg_mobile.jpg') no-repeat;
         background-size: cover;
