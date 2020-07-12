@@ -120,7 +120,7 @@
 
 @media (max-width: 768px) {
     body {
-        background: url('../lessforme/img/bkg_mobile.jpg') no-repeat;
+        background: url('./img/bkg_mobile.jpg') no-repeat;
         background-size: cover;
         height: 100vh;
     }
