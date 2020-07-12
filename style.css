@@ -159,13 +159,12 @@
         font-family: 'Avenir Next Cyr';
         height: 51px;
         width: 249px;
-        border: 2px solid #d6c59a;
+        border: 2px solid #ab9e65;
         border-radius: 9px;
-        background-color: #ffb600;
         font-size: 13px;
         text-transform: uppercase;
         font-weight: bold;
-        background-image: linear-gradient(to right, #e3dcb3 0%, #ffb200 34%, #ffea71 150%);
+        background-image: linear-gradient(#fff090 20%, #ffb300 90%, #ffb000);
         margin-bottom: 25px;
     }
 
