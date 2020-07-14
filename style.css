@@ -27,7 +27,6 @@
         background: url('./img/bkg_mobile.jpg') no-repeat;
         display: block;
         background-size: cover;
-        
     }
     .container {
         display: flex;
@@ -117,7 +116,7 @@
         color: white;
         font-size: 10px;
     }
-    .section_content {
+    .section {
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -135,15 +134,13 @@
         text-transform: uppercase;
         padding-top: 57px;
         margin-bottom: 16px;
-          
     }
     .text_decorh1 {
         color: #ffd100;
     }
     .p_text_slogan {
         font-family: 'Avenir Next Cyr';
-        font-weight: normal;
-        color: #efece9;
+        color: #f6f6f6;
         text-align: center;
         font-size: 15px;
         padding: 0px 50px 0px;
@@ -167,14 +164,12 @@
         background-image: linear-gradient(#fff090 20%, #ffb300 90%, #ffb000);
         margin-bottom: 25px;
     }
-
-    .p_in_paralellogram {   
+    .p_in_paralellogram {
         font-family: 'Avenir Next Cyr';
         font-weight: normal;
         font-size: 13px;
         text-align: left;
         padding-right: 10px;
-        
     }
     .advantages_info {
         color: #efece9;
@@ -185,14 +180,229 @@
     .parallelogram_block_info:nth-child(odd), .parallelogram_block_info:nth-child(2) {
         margin-bottom: 30px;
     }
-
     .parallelogram_block_info:nth-child(4) {
         padding-bottom: 40px;
     }
-
-
     .parallelogram_block_info img {
         margin: auto 20px;
-        
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 0px 15px;
+        background: url('../umaster/img/backgr.jpg') center/cover no-repeat;
+    }
+    .parallelogram_block_info img {
+        display: none;
+    }
+    .section {
+        width: 1120px;
+        margin: auto;
+    }
+    p, h1 {
+        color: wheat;
+    }
+    .container {
+        width: 1290px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header {
+        margin-bottom: 100px;
+    }
+    .number_phone, .social_whatsapp, .notes_for_free_work {
+        display: flex;
+    }
+    .logo {
+        width: 200px;
+    }
+    .img_logo_tel {
+        height: 42px;
+    }
+    .info_text_tel {
+        margin-left: 10px;
+        font-family: 'Avenir Next Cyr';
+        font-style: normal;
+    }
+    .info_text_tel_p {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: 'Avenir Next Cyr';
+        font-style: normal;
+    }
+    .info_text_tel a {
+        font-size: 24px;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Avenir Next Cyr';
+        font-style: normal;
+    }
+    .number_phone_img img {
+        width: 50px;
+    }
+    .p_header {
+        font-size: 14px;
+        color: white;
+        text-transform: uppercase;
+    }
+    .text_color {
+        color: #ffd306;
+    }
+    .nbr_phone {
+        font-size: 24px;
+        color: #ffff;
+    }
+    .text_whatsapp {
+        margin-left: 10px;
+        color: #ffff;
+        font-size: 15px;
+        padding-top: 3px;
+        text-decoration: underline;
+    }
+    .text_notes {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 15px;
+        color: #ffff;
+        text-transform: uppercase;
+        text-align: center;
+        border-radius: 6px;
+        border: 2px solid #f8ca23;
+        margin-left: 3px;
+    }
+    .img_rollingmtr {
+        background-color: #f5cb06;
+        height: 59px;
+        border-radius: 6px;
+    }
+    .button_interactive {
+        background-color: yellow;
+    }
+    .content {
+        width: 1290px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 15px;
+    }
+    .slogan_and_infotext {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .slogan_and_infotext h1 {
+        color: #ffff;
+        text-transform: uppercase;
+        font-size: 68px;
+        margin-bottom: 15px;
+        font-family: 'Uni Neue';
+        font-weight: 800;
+    }
+    .text_decorh1 {
+        color: #ffd100;
+    }
+    .p_text_slogan {
+        color: #e6e6e5;
+        font-size: 28px;
+        font-family: 'Avenir Next Cyr';
+        font-style: normal;
+    }
+    .text_p_decor {
+        font-weight: bold;
+        color: #ffff;
+    }
+    .button_interactive {
+        margin-bottom: 40px;
+        font-family: 'Avenir Next Cyr';
+        font-style: normal;
+        font-weight: bold;
+        background-color: #ffb600;
+        height: 58px;
+        width: 330px;
+        text-transform: uppercase;
+        font-size: 17px;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, #e3dcb3 0%, #ffb200 34%, #ffea71 150%);
+    }
+    .button_interactive:hover {
+        background-image: linear-gradient(to right, #ffb200 0%, #ffea71 34%, #ffb200 150%);
+        box-shadow: 0 2px 50px -5px grey;
+    }
+    .advantages_info {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -69px;
+        width: 50%;
+    }
+    .p_in_paralellogram {
+        background: url('../umaster/img/bkg_img.png');
+        height: 298px;
+        width: 299px;
+        padding-top: 48px;
+        padding-right: 56px;
+        padding-left: 71px;
+        background-repeat: no-repeat;
+        color: black;
+        text-align: center;
+        margin: 0 -41px;
+    }
+    .parallelogram_block_info {
+        position: relative;
+    }
+    .parallelogram_block_info:nth-child(1):after {
+        content: "";
+        background: url('../umaster/img/money.png');
+        position: absolute;
+        background-size: 198px 92px;
+        width: 186px;
+        height: 101px;
+        left: -7px;
+        bottom: 36px;
+        background-repeat: no-repeat;
+    }
+    .parallelogram_block_info:nth-child(2):after {
+        content: "";
+        background: url('../umaster/img/kub.png');
+        position: absolute;
+        background-size: 101px 95px;
+        width: 186px;
+        height: 101px;
+        left: 41px;
+        bottom: 41px;
+        background-repeat: no-repeat;
+    }
+    .parallelogram_block_info:nth-child(3):after {
+        content: "";
+        background: url('../umaster/img/Слой-63.png');
+        position: absolute;
+        background-size: 182px 92px;
+        width: 205px;
+        height: 101px;
+        left: 6px;
+        bottom: 29px;
+        background-repeat: no-repeat;
+    }
+    .parallelogram_block_info:nth-child(4):after {
+        content: "";
+        background: url('../umaster/img/furgon-gazel-biznes.png');
+        position: absolute;
+        background-size: 256px 151px;
+        width: 207px;
+        height: 148px;
+        left: 3px;
+        bottom: 33px;
+        background-repeat: no-repeat;
+    }
+    .text_in_block_parallel {
+        text-align: center;
+        font-weight: bold;
+        color: black;
     }
 }

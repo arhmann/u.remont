@@ -19,9 +19,10 @@
 
             <div class="number_phone">
 
-                <div class="number_phone_img">
-                    <img src="./img/telefon-yell.png" alt="logo_telephone">
-                </div>
+                <picture class="number_phone_img">
+                    <source srcset="./img/telefon-yell@1x.png 1x, ./img/telefon-yell@.png 2x" media="(min-width: 768)">
+                    <img src="./img/telefon-yell@1x.png" srcset="./img/telefon-yell.png 2x" alt="logo_telephone">
+                </picture>
 
                 <div class="info_text_tel">
                     <p class="info_text_tel_p">ремонт в <span class="info_text_tel_span">томске</span></p>
@@ -40,6 +41,7 @@
                 </div>
             </div>
 
+            
             <div class="social_whatsapp">
                 <img src="./img/whatsapp.png" alt="logo_whatsapp">
 
@@ -53,7 +55,6 @@
         </div>
 
         <section class="section">
-    <div class="section_content">
 
         <div class="slogan_and_infotext">
             <h1>Узнайте стоимость <br> ремонта квартиры <br> <span class="text_decorh1">всего за 5 минут!</span></h1>
@@ -91,7 +92,6 @@
             </div>
 
         </div>
-    </div>
         </section>
 
     </header>
