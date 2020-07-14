@@ -191,7 +191,7 @@
 @media (min-width: 768px) {
     body {
         padding: 0px 15px;
-        background: url('../umaster/img/backgr.jpg') center/cover no-repeat;
+        background: url('./img/backgr.jpg') center/cover no-repeat;
     }
     .parallelogram_block_info img {
         display: none;
@@ -358,7 +358,7 @@
     }
     .parallelogram_block_info:nth-child(1):after {
         content: "";
-        background: url('../umaster/img/money.png');
+        background: url('./img/money.png');
         position: absolute;
         background-size: 198px 92px;
         width: 186px;
@@ -369,7 +369,7 @@
     }
     .parallelogram_block_info:nth-child(2):after {
         content: "";
-        background: url('../umaster/img/kub.png');
+        background: url('./img/kub.png');
         position: absolute;
         background-size: 101px 95px;
         width: 186px;
@@ -380,7 +380,7 @@
     }
     .parallelogram_block_info:nth-child(3):after {
         content: "";
-        background: url('../umaster/img/Слой-63.png');
+        background: url('./img/Слой-63.png');
         position: absolute;
         background-size: 182px 92px;
         width: 205px;
@@ -391,7 +391,7 @@
     }
     .parallelogram_block_info:nth-child(4):after {
         content: "";
-        background: url('../umaster/img/furgon-gazel-biznes.png');
+        background: url('./img/furgon-gazel-biznes.png');
         position: absolute;
         background-size: 256px 151px;
         width: 207px;
