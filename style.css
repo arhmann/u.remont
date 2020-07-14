@@ -342,7 +342,7 @@
         width: 50%;
     }
     .p_in_paralellogram {
-        background: url('../umaster/img/bkg_img.png');
+        background: url('./img/bkg_img.png');
         height: 298px;
         width: 299px;
         padding-top: 48px;
