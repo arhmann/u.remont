@@ -1,16 +1,17 @@
 @font-face {
     font-family: 'Uni Neue';
-    src: url('./font/');
-    src: local('Uni Neue Heavy'), local('UniNeueHeavy'), url('UniNeueHeavy.eot?#iefix') format('embedded-opentype'), url('UniNeueHeavy.woff2') format('woff2'), url('UniNeueHeavy.woff') format('woff'), url('UniNeueHeavy.ttf') format('truetype');
-    font-weight: 800;
+    src: url('../font/UniNeueThin.eot');
+    src: url('../font/UniNeueThin.eot#iefix'), format('embedded-opentype'), url("../fonts/UniNeueThin.eot.woff2") format("woff2"),url("../fonts/UniNeueThin.eot.woff") format("woff"),url("../fonts/UniNeueThin.eot.ttf") format("truetype");
     font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
     font-family: 'Avenir Next Cyr';
-    src: url('./font/AvenirNextCyr-Bold.eot');
-    src: local('Avenir Next Cyr Thin Italic');
-    font-style: normal;
+    src: url('AvenirNextCyr-ThinItalic.eot');
+    src: url('../font/AvenirNextCyr-ThinItalic.eot#iefix'), format('embedded-opentype'), url('../font/AvenirNextCyr-ThinItalic.woff2') format("woff2"), url('AvenirNextCyr-ThinItalic.woff') format('woff'), url('AvenirNextCyr-ThinItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
 
 * {
