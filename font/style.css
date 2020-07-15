@@ -191,7 +191,10 @@
 @media (min-width: 768px) {
     body {
         padding: 0px 15px;
-        background: url('./img/backgr.jpg') center/cover no-repeat;
+        background: url('./img/backgr.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     }
     .parallelogram_block_info img {
         display: none;
@@ -204,7 +207,7 @@
         color: wheat;
     }
     .container {
-        width: 1290px;
+        width: 1190px;
         margin-left: auto;
         margin-right: auto;
         padding: 0px 15px;
