@@ -104,6 +104,16 @@
         margin-left: 3px;
         height: 40px;
         width: 126px;
+        
+    }
+
+    .text_notes_for_border{
+        border: medium none;
+        background-image: none;
+        background: transparent;
+        float: left;
+        background-color: transparent;
+
     }
     .notes_for_free_work {
         margin: auto;
@@ -467,6 +477,15 @@
         margin-left: 9px;
         font-family: 'Avenir Next Cyr';
         font-style: normal;
+    }
+    
+    .text_notes_for_border{
+        border: medium none;
+        background-image: none;
+        background: transparent;
+        float: left;
+        background-color: transparent;
+
     }
     .info_text_tel_p {
         color: white;
