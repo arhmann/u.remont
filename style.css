@@ -286,7 +286,11 @@
     }
 
     .text_notes_for_border {
-        margin-top: -20px;
+        border: medium none;
+    background-image: none;
+    background: transparent;
+    float: left;
+    background-color: transparent;
 
     }
     .img_rollingmtr {
