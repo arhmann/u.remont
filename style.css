@@ -286,12 +286,25 @@
     }
 
     .text_notes_for_border {
+        cursor: pointer;
         border: medium none;
     background-image: none;
     background: transparent;
     float: left;
     background-color: transparent;
 
+    }
+
+    .text_notes_for_border:hover {
+        box-shadow: 0 2px 50px -5px grey;
+        border-radius: 6px;
+        border: medium none;
+        background-image: none;
+        background: transparent;
+        float: left;
+        background-color: transparent;
+
+        
     }
     .img_rollingmtr {
         background-color: #f5cb06;
@@ -345,6 +358,7 @@
         font-size: 17px;
         border-radius: 10px;
         background-image: linear-gradient(to right, #e3dcb3 0%, #ffb200 34%, #ffea71 150%);
+        cursor: pointer;
     }
     .button_interactive:hover {
         background-image: linear-gradient(to right, #ffb200 0%, #ffea71 34%, #ffb200 150%);
