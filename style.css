@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Uni Neue';
     src: url('./font/UniNeueBlack.eot');
-    src: local('Uni Neue Heavy'), local('UniNeueHeavy'), url('UniNeueHeavy.eot?#iefix') format('embedded-opentype'), url('UniNeueHeavy.woff2') format('woff2'), url('UniNeueHeavy.woff') format('woff'), url('UniNeueHeavy.ttf') format('truetype');
+    src: url('./font/UniNeueHeavy.eot?#iefix') format('embedded-opentype'), url('./font/UniNeueHeavy.woff2') format('woff2'), url('./font/UniNeueHeavy.woff') format('woff'), url('./font/UniNeueHeavy.ttf') format('truetype');
     font-style: normal;
     font-weight: bold;
 }
@@ -9,8 +9,8 @@
 @font-face {
     font-family: 'Avenir Next Cyr';
     src: url('./font/AvenirNextCyr-Bold.eot');
-    src: local('Avenir Next Cyr'), local('AvenirNextCyr-Bold'), url('AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('AvenirNextCyr-Bold.woff2') format('woff2'), url('AvenirNextCyr-Bold.woff') format('woff'), url('AvenirNextCyr-Bold.ttf') format('truetype');
-     font-style: normal;
+    src: url('./font/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('./font/AvenirNextCyr-Bold.woff2') format('woff2'), url('./font/AvenirNextCyr-Bold.woff') format('woff'), url('./font/AvenirNextCyr-Bold.ttf') format('truetype');
+    font-style: normal;
     font-weight: bold;
 }
 
@@ -63,7 +63,7 @@
         color: #d5b206;
     }
     .info_text_tel_numberphone {
-        font-size: 14px;
+        font-size: 13px;
         color: white;
     }
     .notes_for_free_work {
@@ -232,9 +232,15 @@
     }
     .info_text_tel_p {
         font-size: 16px;
+        color: white;
         text-transform: uppercase;
         font-family: 'Avenir Next Cyr';
         font-style: normal;
+    }
+
+    .info_text_tel_span{
+        color: wheat;
+
     }
     .info_text_tel a {
         font-size: 24px;
@@ -277,6 +283,11 @@
         border-radius: 6px;
         border: 2px solid #f8ca23;
         margin-left: 3px;
+    }
+
+    .text_notes_for_border {
+        margin-top: -20px;
+
     }
     .img_rollingmtr {
         background-color: #f5cb06;
@@ -334,6 +345,7 @@
     .button_interactive:hover {
         background-image: linear-gradient(to right, #ffb200 0%, #ffea71 34%, #ffb200 150%);
         box-shadow: 0 2px 50px -5px grey;
+        cursor: pointer;
     }
     .advantages_info {
         display: flex;
@@ -380,7 +392,7 @@
     }
     .parallelogram_block_info:nth-child(3):after {
         content: "";
-        background: url('./img/Слой-63.png');
+        background: url('./img/blockimg3.png');
         position: absolute;
         background-size: 182px 92px;
         width: 205px;
