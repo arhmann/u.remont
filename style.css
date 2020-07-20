@@ -8,8 +8,8 @@
 
 @font-face {
     font-family: 'Avenir Next Cyr';
-    src: url('./font/AvenirNextCyr-Bold.eot');
-    src: url('./font/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('./font/AvenirNextCyr-Bold.woff2') format('woff2'), url('./font/AvenirNextCyr-Bold.woff') format('woff'), url('./font/AvenirNextCyr-Bold.ttf') format('truetype');
+    src: url('./font/AvenirNextCyr.eot');
+    src: url('./font/AvenirNextCyr.eot?#iefix') format('embedded-opentype'), url('./font/AvenirNextCyr.woff2') format('woff2'), url('./font/AvenirNextCyr.woff') format('woff'), url('./font/AvenirNextCyr.ttf') format('truetype');
     font-style: normal;
     font-weight: bold;
 }
@@ -95,7 +95,7 @@
         font-family: 'Avenir Next Cyr';
         font-style: normal;
         font-size: 8px;
-        padding: 8px 10px;
+        padding: 9px 10px;
         color: #ffff;
         text-transform: uppercase;
         text-align: center;
@@ -104,16 +104,13 @@
         margin-left: 3px;
         height: 40px;
         width: 126px;
-        
     }
-
-    .text_notes_for_border{
+    .text_notes_for_border {
         border: medium none;
         background-image: none;
         background: transparent;
         float: left;
         background-color: transparent;
-
     }
     .notes_for_free_work {
         margin: auto;
@@ -124,7 +121,7 @@
         font-weight: normal;
         text-decoration: underline;
         color: white;
-        font-size: 10px;
+        font-size: 9px;
     }
     .section {
         display: flex;
@@ -154,6 +151,7 @@
         text-align: center;
         font-size: 15px;
         padding: 0px 50px 0px;
+        max-width: 310px;
         margin-bottom: 20px;
     }
     .text_p_decor {
@@ -179,7 +177,7 @@
         font-weight: normal;
         font-size: 13px;
         text-align: left;
-        padding-right: 22px;
+        padding-right: 53px;
     }
     .advantages_info {
         color: #efece9;
@@ -188,13 +186,13 @@
         display: flex;
     }
     .parallelogram_block_info:nth-child(odd), .parallelogram_block_info:nth-child(2) {
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
     .parallelogram_block_info:nth-child(4) {
         padding-bottom: 40px;
     }
     .parallelogram_block_info img {
-        margin: auto 23px;
+        margin: auto 11px;
         width: 32px;
     }
 }
@@ -206,6 +204,9 @@
     }
     .parallelogram_block_info img {
         display: none;
+    }
+    .p_text_slogan {
+        max-width: 610px;
     }
     .section {
         width: 1120px;
@@ -230,6 +231,9 @@
     .number_phone, .social_whatsapp, .notes_for_free_work {
         display: flex;
     }
+    .notes_for_free_work {
+        order: 4;
+    }
     .logo {
         width: 200px;
     }
@@ -242,16 +246,14 @@
         font-style: normal;
     }
     .info_text_tel_p {
-        font-size: 16px;
+        font-size: 19px;
         color: white;
         text-transform: uppercase;
         font-family: 'Avenir Next Cyr';
         font-style: normal;
     }
-
-    .info_text_tel_span{
+    .info_text_tel_span {
         color: wheat;
-
     }
     .info_text_tel a {
         font-size: 24px;
@@ -288,6 +290,7 @@
         padding-left: 16px;
         padding-right: 16px;
         font-size: 15px;
+        font-family: 'Avenir Next Cyr';
         color: #ffff;
         text-transform: uppercase;
         text-align: center;
@@ -295,17 +298,14 @@
         border: 2px solid #f8ca23;
         margin-left: 3px;
     }
-
     .text_notes_for_border {
         cursor: pointer;
         border: medium none;
-    background-image: none;
-    background: transparent;
-    float: left;
-    background-color: transparent;
-
+        background-image: none;
+        background: transparent;
+        float: left;
+        background-color: transparent;
     }
-
     .text_notes_for_border:hover {
         box-shadow: 0 2px 50px -5px grey;
         border-radius: 6px;
@@ -314,8 +314,6 @@
         background: transparent;
         float: left;
         background-color: transparent;
-
-        
     }
     .img_rollingmtr {
         background-color: #f5cb06;
@@ -337,6 +335,7 @@
         margin-bottom: 30px;
     }
     .slogan_and_infotext h1 {
+        line-height: 73px;
         color: #ffff;
         text-transform: uppercase;
         font-size: 68px;
@@ -350,15 +349,13 @@
     .p_text_slogan {
         color: #e6e6e5;
         font-size: 28px;
-        font-family: 'Avenir Next Cyr';
-        font-style: normal;
     }
     .text_p_decor {
         font-weight: bold;
         color: #ffff;
     }
     .button_interactive {
-        margin-bottom: 40px;
+        margin-bottom: 34px;
         font-family: 'Avenir Next Cyr';
         font-style: normal;
         font-weight: bold;
@@ -379,16 +376,16 @@
     .advantages_info {
         display: flex;
         justify-content: space-between;
-        margin-left: -69px;
+        margin-left: -29px;
         width: 50%;
     }
     .p_in_paralellogram {
+        font-family: 'Avenir Next Cyr';
+        font-size: 14px;
         background: url('./img/bkg_img.png');
         height: 298px;
         width: 299px;
-        padding-top: 48px;
-        padding-right: 56px;
-        padding-left: 71px;
+        padding: 48px 56px 10px 71px;
         background-repeat: no-repeat;
         color: black;
         text-align: center;
@@ -399,35 +396,35 @@
     }
     .parallelogram_block_info:nth-child(1):after {
         content: "";
-        background: url('./img/money.png');
+        background: url(./img/money.png);
         position: absolute;
-        background-size: 198px 92px;
-        width: 186px;
+        background-size: 200px 110px;
+        width: 181px;
         height: 101px;
-        left: -7px;
+        left: -8px;
         bottom: 36px;
         background-repeat: no-repeat;
     }
     .parallelogram_block_info:nth-child(2):after {
         content: "";
-        background: url('./img/kub.png');
+        background: url(./img/kub.png);
         position: absolute;
-        background-size: 101px 95px;
-        width: 186px;
-        height: 101px;
-        left: 41px;
+        background-size: 83px 95px;
+        width: 165px;
+        height: 91px;
+        left: 49px;
         bottom: 41px;
         background-repeat: no-repeat;
     }
     .parallelogram_block_info:nth-child(3):after {
         content: "";
-        background: url('./img/blockimg3.png');
+        background: url(./img/blockimg3.png);
         position: absolute;
-        background-size: 182px 92px;
-        width: 205px;
-        height: 101px;
-        left: 6px;
-        bottom: 29px;
+        background-size: 176px 124px;
+        width: 197px;
+        height: 123px;
+        left: 11px;
+        bottom: 32px;
         background-repeat: no-repeat;
     }
     .parallelogram_block_info:nth-child(4):after {
@@ -444,6 +441,7 @@
     .text_in_block_parallel {
         text-align: center;
         font-weight: bold;
+        font-family: 'Avenir Next Cyr';
         color: black;
     }
 }
@@ -479,14 +477,12 @@
         font-family: 'Avenir Next Cyr';
         font-style: normal;
     }
-    
-    .text_notes_for_border{
+    .text_notes_for_border {
         border: medium none;
         background-image: none;
         background: transparent;
         float: left;
         background-color: transparent;
-
     }
     .info_text_tel_p {
         color: white;
@@ -549,7 +545,7 @@
         font-weight: normal;
         text-decoration: underline;
         color: white;
-        font-size: 20px;
+        font-size: 19px;
     }
     .section {
         display: flex;
@@ -574,6 +570,7 @@
         color: #ffd100;
     }
     .p_text_slogan {
+        max-width: 613px;
         font-family: 'Avenir Next Cyr';
         color: #f6f6f6;
         text-align: center;
