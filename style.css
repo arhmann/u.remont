@@ -8,11 +8,23 @@
 
 @font-face {
     font-family: 'Avenir Next Cyr';
-    src: url('./font/AvenirNextCyr.eot');
-    src: url('./font/AvenirNextCyr.eot?#iefix') format('embedded-opentype'), url('./font/AvenirNextCyr.woff2') format('woff2'), url('./font/AvenirNextCyr.woff') format('woff'), url('./font/AvenirNextCyr.ttf') format('truetype');
     font-style: normal;
     font-weight: bold;
+    src: url('./font/AvenirNextCyr-Bold.eot');
+    src: url('./font/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('./font/AvenirNextCyr-Bold.woff2') format('woff2'), url('./font/AvenirNextCyr-Bold.woff') format('woff'), url('./font/AvenirNextCyr-Bold.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'AvenirNextCyr-Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./font/AvenirNextCyr-Thin.eot');
+    src: url('./font/AvenirNextCyr-Thin.eot?#iefix') format('embedded-opentype'), url('./font/AvenirNextCyr-Thin.woff2') format('woff2'), url('./font/AvenirNextCyr-Thin.woff') format('woff'), url('./font/AvenirNextCyr-Thin.ttf') format('truetype');
+}
+
+
+
+
 
 * {
     margin: 0;
@@ -381,7 +393,8 @@
         width: 50%;
     }
     .p_in_paralellogram {
-        font-family: 'Avenir Next Cyr';
+        font-family: 'AvenirNextCyr-Thin';
+        font-weight: 900;
         font-size: 14px;
         background: url('./img/bkg_img.png');
         height: 298px;
@@ -391,7 +404,9 @@
         color: black;
         text-align: center;
         margin: 0 -41px;
+        line-height: 20px;
     }
+
     .parallelogram_block_info {
         position: relative;
     }
