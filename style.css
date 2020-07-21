@@ -186,7 +186,7 @@
         display: flex;
     }
     .parallelogram_block_info:nth-child(odd), .parallelogram_block_info:nth-child(2) {
-        margin-bottom: 25px;
+        margin-bottom: 10px;
     }
     .parallelogram_block_info:nth-child(4) {
         padding-bottom: 40px;
@@ -200,6 +200,7 @@
 @media (min-width: 1140px) {
     body {
         padding: 0px 15px;
+        height: 100vh;
         background: url('./img/backgr.jpg') center/cover no-repeat;
     }
     .parallelogram_block_info img {
